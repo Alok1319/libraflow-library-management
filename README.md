@@ -1,64 +1,77 @@
-# LibraFlow – Console Based Library Management System
+# 📚 LibraFlow – Console Based Library Management System
 
-A console-based Library Management System developed in C++ to automate core library operations including book management, issue-return workflow and record handling.
+LibraFlow is a console-based Library Management System developed in C++ to automate core library operations including book management, issue-return workflow and record handling.
 
 ---
 
 ## Features
 
-✔ Add Books
-✔ Remove Books
-✔ Search Books
-✔ Issue Books
-✔ Return Books
-✔ Record Management
-✔ Input Validation
+* Add Books
+* View Books
+* Issue Books
+* Return Books
+* Record Management
+* Input Validation
+* Console Interface
 
 ---
 
 ## Tech Stack
 
-* Language: C++
-* Programming Concepts:
+Language:
 
-  * Object-Oriented Programming (OOP)
-  * Functions
-  * File Handling
-  * Structured Programming
+* C++
+
+Concepts Used:
+
+* Object-Oriented Programming (OOP)
+* Functions
+* File Handling
+* Structured Programming
 
 ---
 
-## Project Type
+## Project Structure
 
-Console Application
+LibraFlow/
+
+├── main.cpp
+├── library.cpp
+├── library.h
+└── README.md
 
 ---
 
 ## Problem Statement
 
-Manual library management requires maintaining records and tracking book availability. This project demonstrates a console-based approach for managing library operations efficiently.
+Managing library records manually can be time-consuming and difficult to maintain. This project digitizes essential library operations through a console-based workflow.
 
 ---
 
 ## How to Run
 
-1. Clone repository
-2. Compile:
-   g++ main.cpp -o library
-3. Run:
-   ./library
+Compile:
+
+g++ main.cpp library.cpp -o libraflow
+
+Run:
+
+./libraflow
 
 ---
 
-## Future Scope
+## Future Enhancements
 
-* GUI Version
+* Search Functionality
 * Database Integration
+* GUI Version
 * Multi-user Access
-* Search Optimization
+* Analytics Dashboard
 
 ---
 
-## Status
+## Project Status
 
 Completed
+
+⭐ If you found this project useful, consider starring the repository.
